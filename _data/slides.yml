@@ -1,0 +1,41 @@
+- image: header_1600x400.jpg
+  desc_location: left
+  desc:
+    <h2>(Adv)naced Echel(on)</h2>
+- image: washington_dc_1600x400.jpg
+  desc_location: right
+  desc:
+    <h2>Splunk> .conf2017</h2>
+    <div class='two spacing'></div>
+    <a target='_blank' class='button boxed' href='/blog/2017/08/28/conf-2017.html'>Learn More</a>
+#    <p>------------------</p>
+#    <div class='two spacing'></div>
+#    <a class='button boxed'>View Features</a>
+#- image: slide-2.jpg
+#  desc_location: right
+#  desc:
+#    <h2>Creative Design</h2>
+#    <p>Focus on every detail element.</p>
+#    <div class='two spacing'></div>
+#    <a class='button boxed'>Learn More</a>
+#- image: slide-3.jpg
+#  desc_location: left
+#  desc:
+#    <h2>Responsive Design</h2>
+#    <p>Let users access the theme with all devices</p>
+#    <div class='two spacing'></div>
+#    <a class='button boxed'>Learn More</a>
+#- image: slide-4.jpg
+#  desc_location: right
+#  desc:
+#    <h2>Very Easy to Use</h2>
+#    <p>Almost every element could be customized</p>
+#    <div class='two spacing'></div>
+#    <a class='button boxed'>Learn More</a>
+#- image: slide-5.jpg
+#  desc_location: center
+#  desc:
+#    <h2>A Beautiful &amp; Creative Theme</h2>
+#    <p>Every element is designed attentively</p>
+#    <div class='two spacing'></div>
+#    <a class='button boxed'>Purchase Now</a>
