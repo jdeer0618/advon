@@ -17,3 +17,4 @@ collections:
       - {label: "Comments", name: "comments", widget: "boolean"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {name: "layout: post", widget: "hidden"}
