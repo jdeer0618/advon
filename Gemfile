@@ -8,4 +8,5 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from'
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
+    gem 'redcarpet'
 end
