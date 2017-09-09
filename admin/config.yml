@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: zarekio/advonanalytics
-  branch: gh-pages
+  repo: zarekio/advon
+  branch: master
   site_domain: advonanalytics.com
 media_folder: "images/uploads"
 collections:
@@ -11,6 +11,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Foo", name: "foo", widget: "foo"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
