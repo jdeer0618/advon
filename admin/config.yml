@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: zarekio/advon
+  repo: jdeer0618/advon
   branch: master
   site_domain: advonanalytics.com
 media_folder: "images/uploads"
