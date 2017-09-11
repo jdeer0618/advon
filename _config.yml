@@ -11,6 +11,3 @@ url: http://www.advonanalytics.com
 plugins_dir:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-include:
-  - _redirects
