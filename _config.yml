@@ -6,7 +6,7 @@ paginate: 3
 paginate_path: "blog/page:num"
 permalink: /blog/:year/:month/:day/:title.html
 url: http://www.advonanalytics.com
-#enforce_ssl: advonanalytics.com
+#enforce_ssl: advonanalytics.comk
 
 plugins_dir:
   - jekyll-seo-tag
