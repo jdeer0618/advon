@@ -13,4 +13,4 @@ Disallow: /admin/
 #                                                           __/ |
 #                                                          |___/
 #
-Sitemap: http://advonanalytics.com/sitemap.xml
+Sitemap: https://advonanalytics.com/sitemap.xml
