@@ -8,7 +8,7 @@ permalink: /blog/:year/:month/:day/:title.html
 url: https://www.advonanalytics.com
 timezone: America/Chicago
 
-include: _redirects
+include: [_redirects]
 
 plugins_dir:
   - jekyll-seo-tag
