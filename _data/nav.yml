@@ -23,6 +23,9 @@
 - name: Blog
   path: blog/
   section_id: blog
+- name: Partners
+  path: partners.html
+  section_id: partners
 - name: Contact Us
   path: contact.html
   section_id: contact_us
