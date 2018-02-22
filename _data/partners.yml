@@ -9,4 +9,4 @@
 #    icon: lock
 #    desc:
 #      Whether your company is a Splunk veteran or still wondering what the "punct" field is, help with deploying Splunk Enterprise Security is closer than you think. Achieve the lowest time-to-value possible without sacrificing quality.
-color: yellow
+#    color: yellow
