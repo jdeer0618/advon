@@ -69,6 +69,19 @@ sales:
       - name: mail
         link: eric@advonanalytics.com
         color: yellow
+ps:
+  - image: jd_208x208.jpg
+    name: James Deer (JD)
+    position: Principal Consultant
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+    socials:
+      - name: linkedin
+        link: #
+        color: yellow
+      - name: mail
+        link: eric@advonanalytics.com
+        color: yellow
 ---
 <div class='full'>
   <div class='row'>
@@ -91,8 +104,6 @@ sales:
     </div>
   </div>
 </div>
-
-
 
 <div class='members'>
   <div class='full no-padding'>
@@ -122,7 +133,6 @@ sales:
         </div>
       {% endfor %}
     </div>
-
     <div class='spacing'></div>
   </div>
 </div>
@@ -175,7 +185,34 @@ sales:
       <p>PS group</p>
       <p class='shortline'></p>
     </div>
-    <div class='spacing'></div>
+    <div class='members'>
+  <div class='full no-padding'>
+    <div class='row'>
+      {% for member in page.ps %}
+        {% if forloop.first %}
+          {% assign active_class = "active" %}
+        {% else %}
+          {% assign active_class = "" %}
+        {% endif %}
+        <div class='medium-3 large-3 columns'>
+          <div class='member centered-text {{active_class}}'>
+            <img src='{{site.url}}/images/{{member.image}}'>
+            <h3>{{member.name}}</h3>
+            <p class='position'>{{member.position}}</p>
+            <p>
+              {{member.desc}}
+            </p>
+            <div class='socials'>
+              {% for social in member.socials %}
+                <a href='{{social.link}}'>
+                  <i class='icon-{{social.name}} {{social.color}}'></i>
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+</div>
     <div class='spacing'></div>
   </div>
 </div>
