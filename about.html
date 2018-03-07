@@ -14,7 +14,7 @@ bars:
 members:
   - image: jd_208x208.jpg
     name: James Deer (JD)
-    position: Managing Member
+    position: Managing Partner
     desc:
       Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
     socials:
@@ -28,11 +28,11 @@ members:
         link: #
         color: yellow
       - name: mail
-        link: jd@advonanalytics dot com
+        link: jd@advonanalytics.com
         color: yellow
   - image: bill_208x208.jpg
     name: Bill Brown
-    position: CFO
+    position: Director of Finance
     desc:
       Bill is a classically trained bean counter. He specializes in counting coffee and green beans, however, Bill can count  pretty much any type of bean.
     socials:
@@ -43,25 +43,7 @@ members:
         link: #
         color: yellow
       - name: mail
-        link: bill@advonanalytics dot com
-        color: yellow
-  - image: ted_208x208.jpg
-    name: Ted Perry
-    position: Lead HTML Ninja
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est   rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste   est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: facebook
-        link: #
-        color: yellow
-      - name: vimeo
-        link: #
-        color: yellow
-      - name: mail
-        link: #
+        link: bill@advonanalytics.com
         color: yellow
   - image: kev_208x208.JPG
     name: Kevin Champaigne
@@ -69,9 +51,9 @@ members:
     desc:
       Like a chicken, he's flightless.
 sales:
-  - image: jd_208x208.jpg
-    name: James Deer (JD)
-    position: Managing Member
+  - image: eric_208x208.jpg
+    name: Eric Sturtevant
+    position: Director of National Sales
     desc:
       Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
     socials:
@@ -85,7 +67,7 @@ sales:
         link: #
         color: yellow
       - name: mail
-        link: jd@advonanalytics dot com
+        link: eric@advonanalytics.com
         color: yellow
 ---
 <div class='full'>
@@ -106,19 +88,6 @@ sales:
         are est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae.
       </p>
       <p>Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Nihil quia et omnis blanditiis eius suscipit quos.</p>
-    </div>
-    <div class='medium-6 large-6 columns'>
-      <ul class='bars'>
-        {% for bar in page.bars %}
-          <li>
-            <h4>
-              {{bar.title}}
-              <strong>{{bar.percent}}%</strong>
-            </h4>
-            <p class='highlighted' data-percent='{{bar.percent}}'></p>
-          </li>
-        {% endfor %}
-      </ul>
     </div>
   </div>
 </div>
